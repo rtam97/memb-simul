@@ -1,0 +1,13 @@
+#include "martini_v2.2.itp"
+
+
+
+#include "./protein-topologies/2mmu_CrgA-top/2mmu_CrgA_A.itp"
+
+[ system ]
+; name
+Martini system from ./starting-structures/2mmu_CrgA.pdb
+
+[ molecules ]
+; name        number
+2mmu_CrgA_A 	 1

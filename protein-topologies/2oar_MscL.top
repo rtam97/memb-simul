@@ -1,0 +1,21 @@
+#include "martini_v2.2.itp"
+
+
+
+#include "./protein-topologies/2oar_MscL-top/2oar_MscL_D.itp"
+#include "./protein-topologies/2oar_MscL-top/2oar_MscL_E.itp"
+#include "./protein-topologies/2oar_MscL-top/2oar_MscL_A.itp"
+#include "./protein-topologies/2oar_MscL-top/2oar_MscL_B.itp"
+#include "./protein-topologies/2oar_MscL-top/2oar_MscL_C.itp"
+
+[ system ]
+; name
+Martini system from ./starting-structures/2oar_MscL.pdb
+
+[ molecules ]
+; name        number
+2oar_MscL_A 	 1
+2oar_MscL_B 	 1
+2oar_MscL_C 	 1
+2oar_MscL_D 	 1
+2oar_MscL_E 	 1

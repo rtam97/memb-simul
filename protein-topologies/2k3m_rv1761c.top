@@ -1,0 +1,13 @@
+#include "martini_v2.2.itp"
+
+
+
+#include "./protein-topologies/2k3m_rv1761c-top/2k3m_rv1761c_A.itp"
+
+[ system ]
+; name
+Martini system from ./starting-structures/2k3m_rv1761c.pdb
+
+[ molecules ]
+; name        number
+2k3m_rv1761c_A 	 1

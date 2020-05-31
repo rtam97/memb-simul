@@ -1,0 +1,19 @@
+#include "martini_v2.2.itp"
+
+
+
+#include "./protein-topologies/4fix_GlfT2-top/4fix_GlfT2_D.itp"
+#include "./protein-topologies/4fix_GlfT2-top/4fix_GlfT2_B.itp"
+#include "./protein-topologies/4fix_GlfT2-top/4fix_GlfT2_C.itp"
+#include "./protein-topologies/4fix_GlfT2-top/4fix_GlfT2_A.itp"
+
+[ system ]
+; name
+Martini system from ./starting-structures/4fix_GlfT2.pdb
+
+[ molecules ]
+; name        number
+4fix_GlfT2_A 	 1
+4fix_GlfT2_B 	 1
+4fix_GlfT2_C 	 1
+4fix_GlfT2_D 	 1

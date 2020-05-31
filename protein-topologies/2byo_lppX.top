@@ -1,0 +1,13 @@
+#include "martini_v2.2.itp"
+
+
+
+#include "./protein-topologies/2byo_lppX-top/2byo_lppX_A.itp"
+
+[ system ]
+; name
+Martini system from ./starting-structures/2byo_lppX.pdb
+
+[ molecules ]
+; name        number
+2byo_lppX_A 	 1

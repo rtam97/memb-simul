@@ -1,0 +1,39 @@
+#include "martini_v2.2.itp"
+
+
+
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_F.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_G.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_D.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_E.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_B.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_C.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_A.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_N.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_L.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_M.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_J.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_K.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_H.itp"
+#include "./protein-topologies/esx1_dimer-top/esx1_dimer_I.itp"
+
+[ system ]
+; name
+Martini system from ./starting-structures/esx1_dimer.pdb
+
+[ molecules ]
+; name        number
+esx1_dimer_B 	 1
+esx1_dimer_C 	 1
+esx1_dimer_G 	 1
+esx1_dimer_D 	 1
+esx1_dimer_F 	 1
+esx1_dimer_A 	 1
+esx1_dimer_E 	 1
+esx1_dimer_H 	 1
+esx1_dimer_I 	 1
+esx1_dimer_J 	 1
+esx1_dimer_K 	 1
+esx1_dimer_L 	 1
+esx1_dimer_M 	 1
+esx1_dimer_N 	 1

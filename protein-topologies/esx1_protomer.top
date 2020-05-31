@@ -1,0 +1,25 @@
+#include "martini_v2.2.itp"
+
+
+
+#include "./protein-topologies/esx1_protomer-top/esx1_protomer_A.itp"
+#include "./protein-topologies/esx1_protomer-top/esx1_protomer_B.itp"
+#include "./protein-topologies/esx1_protomer-top/esx1_protomer_C.itp"
+#include "./protein-topologies/esx1_protomer-top/esx1_protomer_D.itp"
+#include "./protein-topologies/esx1_protomer-top/esx1_protomer_E.itp"
+#include "./protein-topologies/esx1_protomer-top/esx1_protomer_F.itp"
+#include "./protein-topologies/esx1_protomer-top/esx1_protomer_G.itp"
+
+[ system ]
+; name
+Martini system from ./starting-structures/esx1_protomer.pdb
+
+[ molecules ]
+; name        number
+esx1_protomer_B 	 1
+esx1_protomer_C 	 1
+esx1_protomer_G 	 1
+esx1_protomer_D 	 1
+esx1_protomer_F 	 1
+esx1_protomer_A 	 1
+esx1_protomer_E 	 1

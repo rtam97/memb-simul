@@ -1,0 +1,13 @@
+#include "martini_v2.2.itp"
+
+
+
+#include "./protein-topologies/2qrw_glbO-top/2qrw_glbO_H.itp"
+
+[ system ]
+; name
+Martini system from ./starting-structures/2qrw_glbO.pdb
+
+[ molecules ]
+; name        number
+2qrw_glbO_H 	 1

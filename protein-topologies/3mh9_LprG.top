@@ -1,0 +1,13 @@
+#include "martini_v2.2.itp"
+
+
+
+#include "./protein-topologies/3mh9_LprG-top/3mh9_LprG_A.itp"
+
+[ system ]
+; name
+Martini system from ./starting-structures/3mh9_LprG.pdb
+
+[ molecules ]
+; name        number
+3mh9_LprG_A 	 1

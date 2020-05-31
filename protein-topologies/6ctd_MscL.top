@@ -1,0 +1,21 @@
+#include "martini_v2.2.itp"
+
+
+
+#include "./protein-topologies/6ctd_MscL-top/6ctd_MscL_C.itp"
+#include "./protein-topologies/6ctd_MscL-top/6ctd_MscL_B.itp"
+#include "./protein-topologies/6ctd_MscL-top/6ctd_MscL_A.itp"
+#include "./protein-topologies/6ctd_MscL-top/6ctd_MscL_E.itp"
+#include "./protein-topologies/6ctd_MscL-top/6ctd_MscL_D.itp"
+
+[ system ]
+; name
+Martini system from ./starting-structures/6ctd_MscL.pdb
+
+[ molecules ]
+; name        number
+6ctd_MscL_A 	 1
+6ctd_MscL_B 	 1
+6ctd_MscL_C 	 1
+6ctd_MscL_D 	 1
+6ctd_MscL_E 	 1

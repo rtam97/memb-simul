@@ -1,0 +1,13 @@
+#include "martini_v2.2.itp"
+
+
+
+#include "./protein-topologies/1r88_MPT51a-top/1r88_MPT51a_A.itp"
+
+[ system ]
+; name
+Martini system from ./starting-structures/1r88_MPT51a.pdb
+
+[ molecules ]
+; name        number
+1r88_MPT51a_A 	 1
